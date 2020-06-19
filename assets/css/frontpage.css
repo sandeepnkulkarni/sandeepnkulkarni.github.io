@@ -1,0 +1,25 @@
+#created-by {
+  text-align: right;
+  margin-top: 10px;
+  color: #1A1A1D;
+  font-size: 0.9em;
+}
+
+.home-info {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background: #C1C8E4;
+  padding: 15px 15px;
+}
+
+.home-info p {
+  margin-bottom: 10px;
+  color: #1A1A1D;
+  font-size: 1.3125rem;
+  font-weight: 500;
+}
+
+@media (min-width: 512px) {
+  .home-info {
+    padding: 15px 15px;
+  }
+}
