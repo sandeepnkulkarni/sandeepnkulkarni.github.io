@@ -18,9 +18,14 @@
   font-weight: 500;
 }
 
+.home-logo {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background: #FFFFFF;
+  padding: 15px 15px;
+}
+
 @media (min-width: 512px) {
-  .home-info {
-	background: #FFFFFF;  
+  .home-logo {	
     padding: 15px 15px;
   }
 }
