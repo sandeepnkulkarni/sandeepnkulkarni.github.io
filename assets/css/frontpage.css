@@ -18,14 +18,28 @@
   font-weight: 500;
 }
 
+.home-info h2 { 
+  background:#123C69;
+  color: #FFFFFF;  
+  display:inline-block;
+  padding: 3px 15px;
+}
+
+.home-info ul { 
+  list-style-type:square;
+}
+
+.home-info li { 
+  padding: 5px 10px;
+}
+
 .home-logo {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background: #FFFFFF;
-  padding: 15px 15px;
+  background: #FFFFFF;  
 }
 
 @media (min-width: 512px) {
   .home-logo {	
-    padding: 15px 15px;
+    padding: 5px 5px;
   }
 }
